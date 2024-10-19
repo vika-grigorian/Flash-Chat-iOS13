@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
                     print(e)
                 } else {
                     // navigate to chat VC
-                    self?.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self?.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
             }
         }
